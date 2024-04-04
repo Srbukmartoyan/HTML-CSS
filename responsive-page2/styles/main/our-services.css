@@ -1,0 +1,30 @@
+.our-services {
+    background-color: var(--background-color);
+}
+
+.our-services-item h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.our-services-item p:not(.small-text) {
+    margin-bottom: 15px;
+}
+
+.our-services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px
+}
+
+@media screen and (max-width: 700px) {
+    .our-services-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .our-services-container {
+        grid-template-columns: 1fr;
+    }
+}

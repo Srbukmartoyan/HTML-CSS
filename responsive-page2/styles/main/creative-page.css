@@ -1,0 +1,26 @@
+.creative-page {
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.385), rgba(0, 0, 0, 0.5)), url(https://www.coxblue.com/wp-content/uploads/2019/01/Why-Co-working-Spaces-May-Be-the-Perfect-Work-Environment.-Here%E2%80%99s-What-Traditional-Office-Managers-and-Employers-Can-Learn-From-Them.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creative-page p {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: white;
+    text-align: center
+}
+
+.creative-page button {
+    display: block;
+    margin: 30px auto 0 auto
+}
+
+@media screen and (max-width: 390px) {
+    .creative-page p {
+        font-size: 1.5rem
+    }
+}

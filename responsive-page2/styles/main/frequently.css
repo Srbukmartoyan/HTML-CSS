@@ -1,0 +1,23 @@
+.frquently {
+    background-color: var(--background-color);
+}
+
+.frequently-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--main-gap);
+}
+
+.frequently-item h2 {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.frequently-item p {
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 450px) {
+    .frequently-container {
+        grid-template-columns: 1fr;
+    }
+}
