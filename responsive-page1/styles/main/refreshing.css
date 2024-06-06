@@ -1,0 +1,53 @@
+.refreshing {
+    height: calc(100vh - 242px);
+    display: flex;
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/714/935/806/rainbow-colorful-background-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.refreshing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.refreshing-content h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    color: white;
+}
+
+.refreshing-content p {
+    font-size: 1rem;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.learn-more {
+    padding: 15px 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edecec;
+    box-shadow: 0 0 3px 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .refreshing-content h2 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .refreshing-content p {
+        text-align: center;
+    }
+    .learn-more {
+        font-size: 0.65rem;
+    }
+}

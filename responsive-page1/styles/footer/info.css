@@ -1,0 +1,86 @@
+.info {
+    border-top: 3px solid #2195f1;
+    padding: 50px 0;
+    background-color: #333333;
+}
+
+.info-container {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.info h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgb(224, 223, 223);
+}
+
+.info p {
+    font-size: 0.9rem;
+    color: rgb(224, 223, 223);
+    line-height: 20px;
+}
+
+.info hr {
+    margin: 8px 0 20px 0;
+}
+
+.about-icon-container {
+    margin-top: 13px;
+    display: flex;
+    gap: 10px
+}
+
+.info-icon {
+    font-size: 14px;
+    padding: 10px;
+    background-color: #2a2a2f;
+    color: white;
+    border-radius: 2px;
+}
+
+.info .recent-posts p {
+    line-height: 21px;
+}
+
+.info .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+}
+
+.info .links a {
+    text-decoration: none;
+    color: rgba(224, 223, 223);
+}
+
+.our-gallery-container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.our-gallery-img-container {
+    background-color: white;
+}
+
+.our-gallery img {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 1040px) {
+    .info-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .info-container {
+        grid-template-columns: 1fr;
+    }
+}
+

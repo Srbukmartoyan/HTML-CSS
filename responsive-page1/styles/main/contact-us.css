@@ -1,0 +1,55 @@
+.contact-us-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px
+}
+
+.contact-us-left > p {
+    margin-bottom: 15px;
+    font-size: 0.9rem;
+    line-height: 20px;
+    color: rgb(97, 96, 96);
+}
+
+.contact-us-address {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-us-address p {
+    font-size: 0.7rem;
+    color: rgb(97, 96, 96);
+}
+
+.contact-us-right input[type="text"],
+.contact-us-right input[type="email"],
+.contact-us-right textarea {
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 1px solid rgba(201, 199, 199, 0.5);
+    font-size: 0.8rem;
+    background-color: transparent;
+    outline: none;
+}
+
+.contact-us-right input::placeholder,
+.contact-us-right textarea::placeholder {
+    font-weight: 530;
+    color: #afafaf;
+}
+
+.contact-us-right .submit-button {
+    margin: 0;
+    font-size: 0.7rem;
+    background-color: #97ccf6;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-us-content {
+        grid-template-columns: 1fr;
+    }
+}

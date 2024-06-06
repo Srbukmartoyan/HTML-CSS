@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    display: grid;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2195f1;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px -2px black;
+}
+
+.container-header {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+hr {
+    margin: 5px 0 30px 0;
+    width: 25px;
+    background-color: #2195f1;
+    height: 2px;
+    border: none;
+}
+
+.btn {
+    display: block;
+    margin: 30px auto 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 3px -2px black;
+    background-color: #2195f1;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.padding-bg-color {
+    padding: 30px 0;
+    background-color: #f9f9f9;
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 90%
+    }
+    .btn {
+        font-size: 0.7rem;
+        padding: 10px;
+    }
+}

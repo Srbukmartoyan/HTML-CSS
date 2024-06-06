@@ -1,0 +1,38 @@
+.director {
+    padding: 40px 190px;
+    text-align: center;
+    background-color: #2196f3;
+    color: white;
+}
+
+.director img{
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.director h2 {
+    margin: 8px 0;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.881);
+}
+
+.director p {
+    color: rgba(255, 255, 255, 0.881);
+    font-size: 0.8rem;
+}
+
+.creative-director {
+    margin-bottom: 18px;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 500px) {
+    .director {
+        padding: 20px 75px;
+    }
+}
